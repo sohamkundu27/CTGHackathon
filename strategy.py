@@ -40,6 +40,13 @@ df.sort_values('date', inplace=True)
 df['ma_short'] = df['close'].rolling(window=10).mean()
 df['ma_long'] = df['close'].rolling(window=30).mean()
 
+
+# Only trade periods of low volatility
+df["volatility"] = df["close"].pct_change().rolling(10).std()  # Annualized volatility
+threshold = df["volatility"].quantile(0.4) # Example threshold for volatility filter
+df = df[df["volatility"] <= threshold]  # Filter out rows with zero volatility
+
+
 # Generate signals based solely on moving average crossovers:
 # Signal = 1 when short MA is above long MA, and -1 otherwise.
 df['signal'] = 0
@@ -56,3 +63,10 @@ df['cumulative_return'] = df['strategy_return'].cumsum()
 
 # Print the relevant columns of the last few rows
 print(df[['date', 'close', 'ma_short', 'ma_long', 'signal', 'position', 'cumulative_return']].tail())
+
+# Calculate and print Sharpe Ratio (annualized)
+# Assuming risk-free rate = 0 and daily returns -> annualized Sharpe = (mean return / std of return) * sqrt(252)
+daily_returns = df['strategy_return'].dropna()
+sharpe_ratio = daily_returns.mean() / daily_returns.std() * np.sqrt(252)
+
+print("\nSharpe Ratio (annualized):", sharpe_ratio)
