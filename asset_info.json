@@ -1,0 +1,202 @@
+[
+  {
+    "Ticker": "SPY-US",
+    "Name": "SPDR S&P 500 ETF Trust",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "SLV-US",
+    "Name": "iShares Silver Trust",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Metals",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "GLD-US",
+    "Name": "SPDR Gold Shares",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Metals",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "TLT-US",
+    "Name": "iShares 20+ Year Treasury Bond ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Government Bond",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "USO-US",
+    "Name": "United States Oil Fund LP",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Energy",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "UNG-US",
+    "Name": "United States Natural Gas Fund LP",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Energy",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "IXJ-US",
+    "Name": "iShares Global Healthcare ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "KXI-US",
+    "Name": "iShares Global Consumer Staples ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "JXI-US",
+    "Name": "iShares Global Utilities ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "IXG-US",
+    "Name": "iShares Global Financials ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "IXN-US",
+    "Name": "iShares Global Tech ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "RXI-US",
+    "Name": "iShares Global Consumer Discretionary ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "MXI-US",
+    "Name": "iShares Global Materials ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "EXI-US",
+    "Name": "iShares Global Industrials ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "IXC-US",
+    "Name": "iShares Global Energy ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Global",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "IEI-US",
+    "Name": "iShares 3-7 Year Treasury Bond ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Government Bond",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "SHY-US",
+    "Name": "iShares 1-3 Year Treasury Bond ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Government Bond",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "BIL-US",
+    "Name": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Government Bond",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "JPXN-US",
+    "Name": "iShares JPX-Nikkei 400 ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Japan",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "INDA-US",
+    "Name": "iShares MSCI India ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "India",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "MCHI-US",
+    "Name": "iShares MSCI China ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "China",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "EZU-US",
+    "Name": "iShares MSCI Eurozone ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Equity",
+    "Region": "Europe",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "IBIT-US",
+    "Name": "iShares Bitcoin Trust (BTC)",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Crypto",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "ETHA-US",
+    "Name": "iShares Ethereum Trust (ETH)",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Crypto",
+    "Region": "US",
+    "Currency": "USD"
+  },
+  {
+    "Ticker": "VIXY-US",
+    "Name": "ProShares VIX Short-Term Futures ETF",
+    "AssetClass": "ETF",
+    "UnderlyingAssetClass": "Volatility Index",
+    "Region": "US",
+    "Currency": "USD"
+  }
+]
